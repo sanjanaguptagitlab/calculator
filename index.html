@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input id="input" type="text" readonly />
+      <div class="button">
+        <button
+          onclick="
+        currentValue = '';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          ac
+        </button>
+        <button
+          onclick="
+        currentValue = '';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          del
+        </button>
+        <button
+          onclick="
+        currentValue += '%';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          %
+        </button>
+        <button
+          onclick="
+        currentValue += '/';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          /
+        </button>
+        <button
+          onclick="
+        currentValue += '7';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          7
+        </button>
+        <button
+          onclick="
+        currentValue += '8';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          8
+        </button>
+        <button
+          onclick="
+        currentValue += '9';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          9
+        </button>
+        <button
+          onclick="
+        currentValue += '*';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          *
+        </button>
+        <button
+          onclick="
+        currentValue += '4';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          4
+        </button>
+        <button
+          onclick="
+        currentValue += '5';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          5
+        </button>
+        <button
+          onclick="
+        currentValue += '6';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          6
+        </button>
+        <button
+          onclick="
+        currentValue += '-';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          -
+        </button>
+        <button
+          onclick="
+        currentValue += '2';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          1
+        </button>
+        <button
+          onclick="
+        currentValue += '2';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          2
+        </button>
+        <button
+          onclick="
+        currentValue += '3';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          3
+        </button>
+        <button
+          onclick="
+        currentValue += '+';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          +
+        </button>
+        <button
+          onclick="
+        currentValue += '0';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          0
+        </button>
+        <button
+          onclick="
+        currentValue += '00';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          00
+        </button>
+        <button
+          onclick="
+        currentValue += '.';
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          .
+        </button>
+        <button
+          onclick="
+        currentValue = eval(currentValue);
+        document.getElementById('input').value=currentValue;
+        
+        "
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script>
+      let currentValue = "";
+      document.getElementById("input").value = currentValue;
+    </script>
+  </body>
+</html>
